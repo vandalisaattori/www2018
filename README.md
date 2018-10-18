@@ -5,6 +5,7 @@
      </h1>
    <p> helloworld
      </p>
-    <a href="" target ="_blank"> link to nowhere </a>
+    <a href="" target ="_blank"> link to unneccessary tab </a>
+    <img src="" alt="no image">
  </body>
 </html>
