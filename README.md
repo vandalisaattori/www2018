@@ -5,6 +5,6 @@
      </h1>
    <p> helloworld
      </p>
-    <a href=""> link to nowhere </a>
+    <a href="" target ="_blank"> link to nowhere </a>
  </body>
 </html>
