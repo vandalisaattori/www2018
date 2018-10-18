@@ -3,6 +3,8 @@
   <body>
    <h1>does this work
      </h1>
+    <h2> and why there is this doctype thing visible
+    </h2>
    <p> helloworld
      </p>
     <a href="" target ="_blank"> link to unneccessary tab </a><br>
