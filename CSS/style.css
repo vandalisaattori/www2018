@@ -1,5 +1,5 @@
 body{
-background:red /*#F1EA7F url (images/bg.png) repeat-x*/;
+background: #F1EA7F url (images/bg.png) repeat-x;
 
 }
 
@@ -12,10 +12,41 @@ background:red /*#F1EA7F url (images/bg.png) repeat-x*/;
 }
 /*header*/
 #header{
-height:242px;
-margin:0px auto 15px auto;
+  height:242px;
+  margin:0px auto 15px auto;
   font-family:Comic Sans, Papyrus;
   color: 	#766F57;
+}
+/*header menu*/
+#topmenu{
+  display:block;
+  list-style:none;
+  padding:0 0px 0px 278px;
+  float:right;
+  width:415px;
   
+}
+#topmenu li{
+  display:inline;
 
+}
+#topmenu a {
+  display:block;
+  float:left;
+  height:28px;
+  margin:0px 0px 0px 0px; 
+  text-decoration:none;
+  padding:9px 15px 0px 15px; 
+  text-align:center;
+}
+#topmenu a, #topmenu a:visited, #topmenu a:active {
+  color:#FFFFFF;
+}
+#topmenu a:hover{
+  color:#ffffff;
+  background-color:orange
+}
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
+  color:#fffffff;
+  background-color:pink;
 }
