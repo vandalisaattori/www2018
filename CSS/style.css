@@ -41,11 +41,11 @@ height:78px;
   text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-  color:#f0e2cd;
+  color:#F0E2CD;
 }
 #topmenu a:hover{
-  color:#8c8f90;
-  background-color#d6beaa;
+  color:#8C8F90;
+  background-color#D6BEAA;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
   color:#FFDAB9;
@@ -67,26 +67,26 @@ background-color:#FFEFD5	;
   text-align: justify;
 }
 #mainpage blockquote{
-background:#efefef;
+background:#D8BFD8;
   display:block;
   margin:5px;
   font:Georgia;
   font-style:italic;
 }
 h1,h2,h3,h4,h5{
-  color:#16525e;
+  color:#16525E;
   font-weight: bold;
-  font-family:Arial, sans-serif;
+  font-family:Papyrus, sans-serif;
 }
 #mainpage h1 {
   font-size:24px;
-  color:#8c8f90
+  color:#8C8F90
 }
 #mainpage h2{
   font-size:18px;
   padding-top:20px;
   padding-bottom:5px;
-  border-bottom:1px solid #b52e10;
+  border-bottom:1px solid #B52E10;
 }
 #mainpage h3{
   font-size:20px;
