@@ -8,7 +8,7 @@ background: #F1EA7F url (images/bg.png) repeat-x;
   margin:0px auto 15px auto;
   font-family:Papyrus;
   font-size:12px;
-  color: 	#006E6D;
+  color:#006E6D;
 }
 /*header*/
 #header{
@@ -51,12 +51,12 @@ height:78px;
   background-color:#EEE8AA;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
-  color:#ffffff;
+  color:#FFDAB9;
   background-color:pink;
 }
 /*Content*/
 #content { 
-background-color: #ffffff;
+background-color: #FFEFD5	;
 }
 #mainpage {
   width:700px;
