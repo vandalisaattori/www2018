@@ -1,6 +1,5 @@
 body{
-background:url(images/bg.jpg);
-
+background: #f0ffff url(www2018/images/bg.jpg) repeat-x;
 }
 
 #wrap{
@@ -13,7 +12,7 @@ background:url(images/bg.jpg);
 /*header*/
 #header{
   height:242px;
-  background:url(images/header.jpg);
+  background:url(images/header.jpg) no-repeat left top;
  /* margin:0px auto 15px auto;
   font-family:Courier New, Papyrus;
   color:#766F57;*/
