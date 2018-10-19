@@ -17,6 +17,10 @@ background: #F1EA7F url (images/bg.png) repeat-x;
   font-family:Courier New, Papyrus;
   color: 	#766F57;
 }
+#topbar{
+height:78px;
+}
+
 /*header menu*/
 #topmenu{
   display:block;
