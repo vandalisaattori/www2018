@@ -14,7 +14,7 @@ background: #F1EA7F url (images/bg.png) repeat-x;
 #header{
   height:242px;
   margin:0px auto 15px auto;
-  font-family:Courier New;
+  font-family:Courier New, Papyrus;
   color: 	#766F57;
 }
 /*header menu*/
