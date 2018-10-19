@@ -1,11 +1,11 @@
 body{
-background: url"images/bg.jpg" repeat-x;
+background: url(images/bg.jpg) repeat-x;
 }
 
 #wrap{
   width:700px;
   margin:0px auto 15px auto;
-  font-family:Papyrus;
+  font-family:Times Nw Roman, sans-serif;
   font-size:20px;
   color:#006E6D;
 }
@@ -13,9 +13,6 @@ background: url"images/bg.jpg" repeat-x;
 #header{
   height:242px;
   background:url(images/header.jpg) no-repeat left top;
- /* margin:0px auto 15px auto;
-  font-family:Courier New, Papyrus;
-  color:#766F57;*/
 }
 #topbar{
 height:78px;
@@ -44,11 +41,11 @@ height:78px;
   text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-  color:	#FFDAB9;
+  color:#f0e2cd;
 }
 #topmenu a:hover{
-  color:#FF7F50;
-  background-color:#EEE8AA;
+  color:#8c8f90;
+  background-color#d6beaa;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
   color:#FFDAB9;
