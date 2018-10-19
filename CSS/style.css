@@ -15,7 +15,7 @@ background: #F1EA7F url (images/bg.png) repeat-x;
   height:242px;
   margin:0px auto 15px auto;
   font-family:Courier New, Papyrus;
-  color: 	#766F57;
+  color:#766F57;
 }
 #topbar{
 height:78px;
@@ -47,7 +47,7 @@ height:78px;
   color:	#FFDAB9;
 }
 #topmenu a:hover{
-  color:#ffffff;
+  color:#FF7F50;
   background-color:#EEE8AA;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
@@ -56,7 +56,7 @@ height:78px;
 }
 /*Content*/
 #content { 
-background-color: #FFEFD5	;
+background-color:#FFEFD5	;
 }
 #mainpage {
   width:700px;
