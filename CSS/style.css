@@ -1,5 +1,5 @@
 body{
-background: #F1EA7F url (images/bg.png) repeat-x;
+background:#E9967A url (images/bg.jpg);
 
 }
 
@@ -7,7 +7,7 @@ background: #F1EA7F url (images/bg.png) repeat-x;
   width:700px;
   margin:0px auto 15px auto;
   font-family:Papyrus;
-  font-size:12px;
+  font-size:20px;
   color:#006E6D;
 }
 /*header*/
@@ -52,7 +52,7 @@ height:78px;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
   color:#FFDAB9;
-  background-color:pink;
+  background-color:#00BFFF;
 }
 /*Content*/
 #content { 
@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5{
   font-size:18px;
   padding-top:20px;
   padding-bottom:5px;
-  border-bottom:1px solid#b52e10;
+  border-bottom:1px solid #b52e10;
 }
 #mainpage h3{
   font-size:20px;
