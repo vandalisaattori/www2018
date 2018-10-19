@@ -1,5 +1,5 @@
 body{
-background:#E9967A url (www2018/images/bg.jpg) repeat-x;
+background:#E9967A url (images/bg.jpg) repeat-x;
 
 }
 
@@ -7,7 +7,7 @@ background:#E9967A url (www2018/images/bg.jpg) repeat-x;
   width:700px;
   margin:0px auto 15px auto;
   font-family:Papyrus;
-  font-size:12px;
+  font-size:20px;
   color:#006E6D;
 }
 /*header*/
