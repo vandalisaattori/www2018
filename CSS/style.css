@@ -1,5 +1,5 @@
 body{
-background:#E9967A url (images/bg.jpg);
+background:url (images/bg.jpg);
 
 }
 
@@ -13,9 +13,10 @@ background:#E9967A url (images/bg.jpg);
 /*header*/
 #header{
   height:242px;
-  margin:0px auto 15px auto;
+  background:url(images/header.jpg);
+ /* margin:0px auto 15px auto;
   font-family:Courier New, Papyrus;
-  color:#766F57;
+  color:#766F57;*/
 }
 #topbar{
 height:78px;
