@@ -50,3 +50,35 @@ background: #F1EA7F url (images/bg.png) repeat-x;
   color:#ffffff;
   background-color:pink;
 }
+/*Content*/
+#content { 
+background-color: #ffffff;
+}
+#mainpage {
+  width:700px;
+  float:left;
+  padding: 5px 5px 5px 0px;
+  height:auto;
+}
+#mainpage p {
+  line-height:22px;
+  margin:10px 0px 22px 0px;
+  text-align: justify;
+}
+#mainpage blockquote{
+background:#efefef;
+  display:block;
+  margin:5px;
+  font:Georgia;
+  font-style:italic;
+}
+h1,h2,h3,h4,h5{
+  color:#green;
+  font-weight: bold;
+  font-family:Arial, sans-serif;
+}
+#mainpage h1 {
+  font-size:24px;
+  color:#B4d455
+}
+}
