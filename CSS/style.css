@@ -40,7 +40,7 @@ background: #F1EA7F url (images/bg.png) repeat-x;
   text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-  color:#FFFFFF;
+  color:	#FFDAB9;
 }
 #topmenu a:hover{
   color:#ffffff;
