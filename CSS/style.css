@@ -44,7 +44,7 @@ background: #F1EA7F url (images/bg.png) repeat-x;
 }
 #topmenu a:hover{
   color:#ffffff;
-  background-color:white;
+  background-color:#EEE8AA;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
   color:#fffffff;
