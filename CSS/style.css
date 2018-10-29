@@ -16,9 +16,6 @@ background: #FFFFFF url("https://raw.githubusercontent.com/vandalisaattori/www20
   background:url("https://raw.githubusercontent.com/vandalisaattori/www2018/master/images/header.jpg") no-repeat left top;
   clear:both;
 }
-#topbar{
-height:78px;
-}
 
 /*header menu*/ 
 #topmenu{
@@ -111,3 +108,12 @@ h1,h2,h3,h4,h5{
   font-size:11px;
   clear:both;
 }
+#topbar{
+height:78px;
+}
+
+table, th, td{
+    border:1px, solid, orange;
+    
+  
+  }
