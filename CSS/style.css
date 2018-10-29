@@ -14,6 +14,7 @@ background: #FFFFFF url("https://raw.githubusercontent.com/vandalisaattori/www20
 #header{
   height:242px;
   background:url("https://raw.githubusercontent.com/vandalisaattori/www2018/master/images/header.jpg") no-repeat left top;
+  clear:both;
 }
 #topbar{
 height:78px;
@@ -42,15 +43,15 @@ height:78px;
   text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-  color:#F0E2CD;
+  color:#FFFFFF;
 }
 #topmenu a:hover{
-  color:#8C8F90;
-  background-color#D6BEAA;
+  color:#FFFFFF;
+  background-color: #D6BEAA;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
   color:#FFDAB9;
-  background-color:#D2B48C;
+  background-color: #D2B48C;
 }
 /*Content*/
 #content { 
