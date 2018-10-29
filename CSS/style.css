@@ -114,6 +114,7 @@ height:78px;
 
 table, th, td{
     border:1px, solid, orange;
+  border-collapse: collapse;
     
   
   }
