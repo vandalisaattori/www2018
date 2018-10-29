@@ -1,5 +1,6 @@
 body{
 background: url(https://raw.githubusercontent.com/vandalisaattori/www2018/master/images/bg.jpg) repeat-x;
+  backgound-color:#FFFACD;
 }
 
 #wrap{
@@ -53,7 +54,7 @@ height:78px;
 }
 /*Content*/
 #content { 
-background-color:#FFEFD5	;
+background-color:#FFEFD5;
 }
 #mainpage {
   width:700px;
