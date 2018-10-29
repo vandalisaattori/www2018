@@ -1,5 +1,5 @@
 body{
-background: #F08080 url("https://raw.githubusercontent.com/vandalisaattori/www2018/master/images/bg.jpg") repeat-x;
+background: #FFDAB9 url("https://raw.githubusercontent.com/vandalisaattori/www2018/master/images/bg.jpg") repeat-x;
 
 }
 
@@ -40,7 +40,7 @@ background: #F08080 url("https://raw.githubusercontent.com/vandalisaattori/www20
   text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-  color:#FFFFFF;
+  color:#F08080;
 }
 #topmenu a:hover{
   color:#FFFFFF;
