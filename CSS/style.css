@@ -47,7 +47,7 @@ background: #f2fbee url("https://raw.githubusercontent.com/vandalisaattori/www20
   color:#FFFFFF;
   background-color: blue;
 }
-#topmenu .active a, #topmenu a:active, #topmenu a:active {
+#topmenu .active a, #topmenu .active a:active, #topmenu .active a:active {
   color:#f2fbee;
   background-color: #c6ca53;
 }
