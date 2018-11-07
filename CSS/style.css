@@ -44,7 +44,7 @@ background: #f2fbee url("https://raw.githubusercontent.com/vandalisaattori/www20
 }
 #topmenu a:hover{
   color:#FFFFFF;
-  background-color: #D6BEAA;
+  background-color: blue;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
   color:#f2fbee;
@@ -121,4 +121,11 @@ table, th, td{
   }
 th {
 text-align: left;
+}
+
+table#t1
+{
+width: 75%;
+  background-color: ;
+  
 }
