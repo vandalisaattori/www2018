@@ -115,7 +115,7 @@ table {
 border-spacing:5px;
 }
 table, th, td{
-    border:4px, solid, black;
+    border:4px solid black;
   border-collapse: collapse;
   padding: 15px;
   }
