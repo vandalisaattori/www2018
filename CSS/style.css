@@ -29,7 +29,6 @@ background: #f2fbee url("https://raw.githubusercontent.com/vandalisaattori/www20
 }
 #topmenu li{
   display:inline;
-
 }
 #topmenu a {
   display:block;
@@ -41,7 +40,7 @@ background: #f2fbee url("https://raw.githubusercontent.com/vandalisaattori/www20
   text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-  color:#7b7263;
+  color:#f2fbee;
 }
 #topmenu a:hover{
   color:#FFFFFF;
