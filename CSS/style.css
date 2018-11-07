@@ -24,7 +24,8 @@ background: #f2fbee url("https://raw.githubusercontent.com/vandalisaattori/www20
   padding:0 0px 0px 278px;
   float:right;
   width:415px;
-  
+  background-color: #5f6062;
+  position: fixed;
 }
 #topmenu li{
   display:inline;
@@ -52,7 +53,7 @@ background: #f2fbee url("https://raw.githubusercontent.com/vandalisaattori/www20
 }
 /*Content*/
 #content { 
-background-color:##f2fbee;
+background-color:#f2fbee;
 }
 #mainpage {
   width:700px;
