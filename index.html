@@ -26,6 +26,9 @@
     return true;
   }
     </script>
+    <style>
+      #map{width:400px; height:250px; float:left;}
+    </style>
   </head>
   
   <body>
@@ -62,8 +65,11 @@
      </p>
     <a href="" target ="_blank"> Link to unneccessary tab </a><br>
     <img src="images/nimetön.png" alt="hello" width="200" height="200"><br>
-    <p>some lists next</p>
     
+    <h2>Important raccoon video</h2>
+    <iframe width="460" height="215" src="https://www.youtube.com/embed/Zt9zcTnW4R4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <p>some lists next</p>
     <ul>
       <li> ulist1 </li>
       <li> ulist2 </li>
@@ -127,11 +133,14 @@
   <input type="submit" value="Submit">
     </form>
     
-    <h2>Important raccoon video</h2>
-    <iframe width="460" height="215" src="https://www.youtube.com/embed/Zt9zcTnW4R4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
+   
     <p> click below to get your location</p>
     <button onclick="showLocation()">Click</button>
+    <p><label for="location">Location:</label>
+    <div id="map"></div>
+    </p>
+    
+    /**/
     <script>
       function showLocation(){
       if(navigator.geolocation){
@@ -142,9 +151,10 @@
         }
       }
       function showPosition(position){
-      alert("Latitude: "+ position.coords.latitude + "Longitude: "+position.coords.longitude);
+      alert("Latitude: "+ position.coords.latitude + " Longitude: "+position.coords.longitude);
       }
     </script>
+    /**/
     
     </div>
     </div>
