@@ -15,12 +15,12 @@
     {alert("Last name must be filled out");
      return false;
     }
-    if(document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
-    {alert("Phone must be filled out");
-     return false;
-    }
     if(document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
     {alert("E-mail must be filled out");
+     return false;
+    }
+    if(document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
+    {alert("Phone must be filled out");
      return false;
     }
     return true;
@@ -123,7 +123,7 @@
     First Name: <input type"text" name="fname"><br>
     Last Name: <input type"text" name="lname"><br>
     E-mail: <input type="text" name="email"><br>
-    Phone: <input type="phone" text="phone"><br>
+    Phone: <input type="text" name="phone"><br>
   <input type="submit" value="Submit">
     </form>
     </div>
