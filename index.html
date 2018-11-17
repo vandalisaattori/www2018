@@ -4,6 +4,17 @@
   <head>
     <title> this is title </title>
     <link href="CSS/style.css" rel="stylesheet" type="text/css" > 
+    <style>
+      *{
+      margin:0;
+      padding:0;
+      }
+      #map{
+      height:500px;
+      width:100%;
+      }
+    </style>
+    
     <script>
   function validateForm()
   {
@@ -143,6 +154,19 @@
     <p><label for="location">Location:</label>
     <div id="map"></div>
     </p>
+    
+    <div id="map"></div>
+    
+    <script>
+    function initMap(){
+    var location = {lat: 64.222176, lng: 27.727850};
+      var map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: location 
+      });
+    }
+    </script>
+    
     
     <!--  -->
     <script>
