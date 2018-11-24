@@ -1,203 +1,131 @@
-<!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<html>
-  <head>
-    <title> this is title </title>
-    <link href="CSS/style.css" rel="stylesheet" type="text/css" > 
-    
+body{
+background: #f2fbee url("https://raw.githubusercontent.com/vandalisaattori/www2018/master/7b7263.png") repeat-x;
 
-    <style>
-      #div1, #div2{
-      float:left;
-        width: 150px;
-        height:150px;
-        margin:10px;
-        padding:10px;
-        border: 1px solid black;
-      }
-    </style>
+}
 
-    <script>
-    function allowDrop(ev){
-    ev.preventDefault();
-    } 
-      function drag(ev){
-      ev.dataTransfer.setData("text", ev.target.id);
-      }
-      function drop(ev){
-      ev.preventDefault();
-        var data = ev.dataTransfer.getData("text");
-      ev.target.appendChild(document.getElementById(data));
-      }
-    
-    </script>
-    
-    
-    <script>
-  function validateForm()
-  {
-    if(document.forms["myForm"]["fname"].value==null || document.forms["myForm"]["fname"].value=="")
-    {alert("First name must be filled out");
-     return false;
-    }
-    if(document.forms["myForm"]["lname"].value==null || document.forms["myForm"]["lname"].value=="")
-    {alert("Last name must be filled out");
-     return false;
-    }
-    if(document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
-    {alert("E-mail must be filled out");
-     return false;
-    }
-    if(document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
-    {alert("Phone must be filled out");
-     return false;
-    }
-    return true;
+#wrap{
+  width:900px;
+  margin:0px auto 15px auto;
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size:20px;
+  color:#4c4a4f;
+}
+/*header*/
+#header{
+  height:256px;
+  background:url("https://raw.githubusercontent.com/vandalisaattori/www2018/master/images/palette.png") no-repeat left top;
+  clear:both;
+}
+
+/*header menu*/ 
+#topmenu{
+  display:block;
+  list-style:none;
+  padding:0 0px 0px 278px;
+  float:right;
+  width:500px;
+  background-color: #4c4a4f;
+  position: fixed;
+}
+#topmenu li{
+  display:inline;
+}
+#topmenu a {
+  display:block;
+  float:left;
+  height:28px;
+  margin:0px 0px 0px 0px; 
+  text-decoration:none;
+  padding:9px 15px 0px 15px; 
+  text-align:center;
+}
+#topmenu a, #topmenu a:visited, #topmenu a:active {
+  color:#f2fbee;
+}
+#topmenu a:hover{
+  color:#FFFFFF;
+  background-color:#7b7263;
+}
+#topmenu .active a, #topmenu .active a:active, #topmenu .active a:active {
+  color:#f2fbee;
+  background-color: #c6ca53;
+}
+/*Content*/
+#content { 
+background-color:#f2fbee;
+}
+#mainpage {
+  width:700px;
+  float:left;
+  padding: 5px 5px 5px 0px;
+  height:auto;
+}
+#mainpage p {
+  line-height:22px;
+  margin:10px 0px 22px 0px;
+  text-align: justify;
+}
+#mainpage blockquote{
+background:#c9dcb3;
+  display:block;
+  margin:5px;
+  font:Tahoma, Geneva, sans-serif;
+  font-style:italic;
+}
+h1,h2,h3,h4,h5{
+  color:#5f6062;
+  font-weight: bold;
+  font-family:Tahoma, Geneva, sans-serif;
+}
+#mainpage h1 {
+  font-size:24px;
+  color:#5f6062
+}
+#mainpage h2{
+  font-size:18px;
+  padding-top:20px;
+  padding-bottom:5px;
+  border-bottom:1px solid #5f6062;
+}
+#mainpage h3{
+  font-size:20px;
+}
+#mainpage h4{
+  font-size:18px
+}
+#mainpage h5{
+  font-size: 16px;
+}
+#footer{
+  margin:0 auto;
+  width:685px;
+  height:20px;
+  padding:10px;
+  color:#f2fbee;
+  text-align: center;
+  background:#444444;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size:11px;
+  clear:both;
+}
+#topbar{
+height:78px;
+}
+table {
+border-spacing:5px;
+}
+table, th, td{
+    border:4px solid black;
+  border-collapse: collapse;
+  padding: 15px;
   }
-    </script>
-    
+th {
+text-align: left;
+}
 
-  </head>
-  <body>
-
-    <div id="wrap">
-     <div id="topbar">
-   <div id ="menus">
-  <ul id ="topmenu">
-    <li><class="active"><a href="#home">Home </a>
-    </li>
-    <li><a href="#create">HTML5</a>
-    </li>    
-    <li><a href="#products">Products </a>
-    </li>    
-    <li><a href="#table">Table </a></span>
-    </li>    
-    <li><a href="#contactus">Contact us </a>
-    </li>
-
-    </ul>
-  </div> 
-  </div>
-<div id="header">
-    </div>   
-
-  <div id="content">
-  <div id ="mainpage">
-  
-    
-    <h1>Header1
-     </h1>
-    <h2 id="create">Header2:Creating your own HTML page
-    </h2>         
-         <p> This is paragraph.
-     </p>
-    <a href="" target ="_blank"> Link to unneccessary tab </a><br>
-    <img src="images/nimetön.png" alt="hello" width="200" height="200"><br>
-    
-    <h2>Important raccoon video</h2>
-    <iframe width="460" height="215" src="https://www.youtube.com/embed/Zt9zcTnW4R4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    <p>some lists next</p>
-    <ul>
-      <li> ulist1 </li>
-      <li> ulist2 </li>
-      <li> ulist3 </li>
-      <li> ulist4 </li>
-    </ul>
-    <ol>
-      <li> olist1 </li>
-      <li> olist2 </li>
-      <li> olist3 </li>
-      <li> olist4 </li>
-    </ol>
-      <h2 id="table"> Html table </h2>
-    
-    <table>
-      <caption>Just random info</caption>
-      <tr>
-        <th> First name </th>
-        <th> Last name </th>
-        <th> age </th>
-      </tr>
-      <tr>
-        <td> Bob </td>
-        <td> Bobson </td>
-        <td> 60 </td>
-      </tr>
-        <tr>
-        <td> Bill </td>
-        <td> Billson </td>
-        <td> 61 </td>
-      </tr>
-      <tr>
-        <td> Bart </td>
-        <td> Bartson </td>
-        <td> 62 </td>
-      </tr> 
-      
-    </table>
-    
-    <h2 id="contactus"> Contact us </h2>
-    
-    <form>
-    First Name: <br><input type="text" name="fname"> <br>
-    Last Name: <br><input type="text" name="lname"> 
-      <br><br>I am a robot<br> 
-      <input type="radio" name="robot" value="yes">Yes<br>
-      <input type="radio" name="robot" value="no">No<br>
-      <input type="radio" name="robot" value="dunno">I dounno <br>
-    E-mail: <br><input type="text" name="email"><br>
-    Phone: <br><input type="text" name="phone"><br>
-      
-    <input type="submit" value="Submit">
-    </form>
-    <h2> Form Validation Example </h2>
-    
-<form name="myForm" onsubmit="return validateForm()">
-    First Name: <input type"text" name="fname"><br>
-    Last Name: <input type"text" name="lname"><br>
-    E-mail: <input type="text" name="email"><br>
-    Phone: <input type="text" name="phone"><br>
-  <input type="submit" value="Submit">
-    </form>
-    
-    <h2> Click below to get your location </h2>
-    <button onclick="showLocation()"> Click here! </button>
-  
-    <script>
-      function showLocation(){
-      if(navigator.geolocation){
-          navigator.geolocation.getCurrentPosition(showPosition);
-      }
-          else{
-          alert("Your browser does not support geolocation");
-          }
-      }
-
-      function showPosition(position){
-      alert("Latitude: "+ position.coords.latitude + " Longitude: "+position.coords.longitude);
-      }
-    </script>
-
-
-    <h2>Drag and Drop</h2>
-    <p>Drag the image back and forth between the two div elements</p>
-    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-      <img src="https://github.com/vandalisaattori/www2018/blob/master/pesu.png?raw=true" draggable="true" 
-           ondragstart="drag(event)" id ="drag1" width="128" height="128">
-    </div>
-    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    
-    
-    </div>
-    </div>
-  
-<div id="footer">
-  <p>  Copyright &copy;
-    <script type="text/javascript">var ct=new Date();document.write(ct.getFullYear());</script>
-  </p>
-</div>
-    </div>
-
- </body>
-</html>
+table#t1
+{
+width: 75%;
+  background-color: #5f6062;
+  border:1px;
+}
