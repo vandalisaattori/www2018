@@ -64,11 +64,11 @@
      <div id="topbar">
    <div id ="menus">
   <ul id ="topmenu">
-    <li><class="active"><a href="#">Home </a>
+    <li><class="active"><a href="#home">Home </a>
     </li>
     <li><a href="#create">HTML5</a>
     </li>    
-    <li><a href="#">Products </a>
+    <li><a href="#products">Products </a>
     </li>    
     <li><a href="#table">Table </a></span>
     </li>    
