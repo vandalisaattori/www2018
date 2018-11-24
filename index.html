@@ -4,16 +4,6 @@
   <head>
     <title> this is title </title>
     <link href="CSS/style.css" rel="stylesheet" type="text/css" > 
-    <style>
-      *{
-      margin:0;
-      padding:0;
-      }
-      #map{
-      height:500px;
-      width:100%;
-      }
-    </style>
     
     <style type="text/css">
       canvas{border: #666 1px solid;}
@@ -31,6 +21,33 @@
         var loopTimer = setTimeout ('draw('+x+','+y+')',30);
       }
     </script> 
+    
+    <style>
+      #div1, #div2{
+      float:left;
+        width: 100px;
+        height:35px;
+        margin:10px;
+        padding:10px;
+        border: 1px solid black;
+      }
+    </style>
+    
+    <script>
+    function allowDrop(ev){
+    ev.preventDefault();
+    } 
+      function drag(ev){
+      ev.dataTransfer.setData("text", ev.target.id);
+      }
+      function drop(ev){
+      ev.preventDefault();
+        vardata = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+      }
+    
+    </script>
+    
     
     <script>
   function validateForm()
@@ -194,6 +211,13 @@
     
     <button onclick="draw (0,0)">Draw</button>
     <canvas id="canvas" width="550" height "400"> </canvas> 
+    
+    
+    <h2>Drag and Drop</h2>
+    <p>Drag the image back and forth between the two div elements</p>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="https://github.com/vandalisaattori/www2018/blob/master/pesu.png" draggable="true" ondragstart="drag(event)" id ="drag1" width="88" height="31">
+    </div>
     
     </div>
     </div>
