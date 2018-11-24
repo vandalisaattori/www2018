@@ -15,10 +15,20 @@
       }
     </style>
     
-    <script>
-    
-    </script type="text/javascript" language="javascript">
+    <script type="text/javascript" language="javascript">
       canvas{ border: #666 1 solid;}
+      function draw(x,y){
+             var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        ctx.save();
+        ctx.clearRect(0,0,550,400);
+        ctx.fillStyle ="rgba(0,200,0,1)";
+        ctx.fillRect (x,20,50,50);
+        ctx.restore();
+        x+=5;
+        var loopTimer = setTimeout ('draw('+x+','+y+')',200);
+      }
+    </script> 
     
     <script>
   function validateForm()
@@ -180,6 +190,7 @@
 
     <!--  -->
     
+    button onClick="draw (0,0)">Draw</button>
     <canvas id="canvas" width="550" height "400"> </canvas> 
     
     </div>
