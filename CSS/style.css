@@ -170,9 +170,9 @@
         navigator.geolocation.getCurrentPosition(showPosition);
       }
         else{
-        alert("your browser does not support geolocation");
+        alert("Your browser does not support geolocation");
         }
-      }
+      {
       function showPosition(position){
       alert("Latitude: "+ position.coords.latitude + " Longitude: "+position.coords.longitude);
       }
