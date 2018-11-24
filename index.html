@@ -51,8 +51,23 @@
     }
     return true;
   }
-      
+  </script>
 
+      
+<script>
+    function showLocation(){
+      if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition);
+      }
+        else{
+        alert("your browser does not support geolocation");
+        }
+      }
+      function showPosition(position){
+      alert("Latitude: "+ position.coords.latitude + " Longitude: "+position.coords.longitude);
+      }
+    </script>
+    
   </head>
   
   <body>
@@ -160,20 +175,6 @@
     <button onclick="showLocation()"> Click here! </button>
   
 
-    <script>
-      function showLocation(){
-      if(navigator.geolocation){
-        navigator.geolocation.getCurrentPosition(showPosition);
-      }
-        else{
-        alert("your browser does not support geolocation");
-        }
-      }
-      function showPosition(position){
-      alert("Latitude: "+ position.coords.latitude + " Longitude: "+position.coords.longitude);
-      }
-    </script>
-    
     <h2>Drag and Drop</h2>
     <p>Drag the raccoon back and forth between the two div elements</p>
     <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
