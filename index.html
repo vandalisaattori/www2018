@@ -4,24 +4,7 @@
   <head>
     <title> this is title </title>
     <link href="CSS/style.css" rel="stylesheet" type="text/css" > 
-    
-    <style type="text/css">
-      canvas{border: #666 1px solid;}
-    </style>
-     <script type="application/javascript" language="javascript">
-      function draw(x,y){
-        var canvas = document.getElementById('canvas');
-        var ctx = canvas.getContext('2d');
-        ctx.save();
-        ctx.clearRect(0,0,550,400);
-        ctx.fillStyle ="rgba(0,200,0,1)";
-        ctx.fillRect (x,20,50,50);
-        ctx.restore();
-        x+=3;
-        var loopTimer = setTimeout ('draw('+x+','+y+')',30);
-      }
-    </script> 
-    
+
     <style>
       #div1, #div2{
       float:left;
@@ -208,12 +191,8 @@
 
     <!--  -->
     
-    <button onclick="draw (0,0)">Draw</button>
-    <canvas id="canvas" width="550" height "400"> </canvas> 
-    
-    
     <h2>Drag and Drop</h2>
-    <p>Drag the image back and forth between the two div elements</p>
+    <p>Drag the raccoon back and forth between the two div elements</p>
     <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
       <img src="https://github.com/vandalisaattori/www2018/blob/master/pesu.png?raw=true" draggable="true" 
            ondragstart="drag(event)" id ="drag1" width="128" height="128">
